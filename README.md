@@ -16,26 +16,20 @@ This project is a serverless URL shortener built using AWS Lambda, API Gateway, 
 
 ### Steps
 
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/yourusername/url-shortener.git
-    cd url-shortener
-    ```
-
-2. **Create DynamoDB Table**:
+1. **Create DynamoDB Table**:
     - Go to AWS Management Console.
     - Create a table named `UrlTable` with `id` as the primary key.
 
-3. **Create Lambda Functions**:
+2. **Create Lambda Functions**:
     - Create `createShortUrl` and `getOriginalUrl` Lambda functions with provided code.
 
-4. **Set Up API Gateway**:
+3. **Set Up API Gateway**:
     - Create REST API with endpoints for shortening URLs and redirection.
 
-5. **Deploy the API**:
+4. **Deploy the API**:
     - Deploy the API and note the Invoke URL.
 
-6. **Test the Application**:
+5. **Test the Application**:
     - Use Postman or cURL to test the API.
 
 ## License
